@@ -1,0 +1,56 @@
+body {
+    background-image: url('/components/imagens/a-whimsical-and-enchanting-sky-scene-featuring-a-v-yHdl7XptR4q0nuSJ_zE5zA-hLM_skflShmPkZGSNRAU1w.jpeg');
+    background-size: 100vw 100vh; /* ou 100% 100% */
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 10px;
+  }
+
+a{
+    color: white !important;
+}
+#Voltar-btn {
+    border: 2px solid #a30404;
+    padding: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-left: 30px; 
+}
+
+#Voltar-btn:hover {
+    background-color: #a30404;
+    color: white;
+}
+
+.container{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ...your existing CSS... */
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    #Voltar-btn {
+      margin-left: 15px; /* Adjust for smaller screens */
+    }
+  
+    .container {
+      margin-top: 20px; /* Adjust for smaller screens */
+    }
+  
+    /* Additional adjustments for smaller screens can be added here */
+  }
+  
+  /* Additional media queries for different breakpoints can be added as needed */
+  @media screen and (max-width: 480px) {
+    /* Styles for mobile screens */
+  }
